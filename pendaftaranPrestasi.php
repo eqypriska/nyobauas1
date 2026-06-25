@@ -29,9 +29,9 @@ class PendaftaranPrestasi extends Pendaftaran
     }
 
     public function hitungTotalBiaya()
-    {
-        return $this->biayaPendaftaranDasar * 0.5;
-    }
+{
+    return $this->biayaPendaftaranDasar - 50000;
+}
 
     public function tampilkanInfoJalur()
     {
